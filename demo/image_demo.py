@@ -88,7 +88,7 @@ def parse_args():
     parser.add_argument(
         '--texts', help='text prompt, such as "bench . car .", "$: coco"')
     parser.add_argument(
-        '--device', default='cuda:0', help='Device used for inference')
+        '--device', default='cuda:3', help='Device used for inference')
     parser.add_argument(
         '--pred-score-thr',
         type=float,
